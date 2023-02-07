@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.show-hide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.firstName {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #dd1264;
+  font-weight: 500;
+  border: 1px;
+  border-radius: 8px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-right: 35px;
+}
+
+.lastName {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #dd1264;
+  font-weight: 500;
+  border: 1px;
+  border-radius: 8px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-right: 35px;
+}
+
+.name {
+  text-align: center;
+  background-color: #fddddb;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding-top: 48px;
+  padding-left: 106px;
+  padding-right: 106px;
+  padding-bottom: 48px;
+}
